@@ -1,0 +1,29 @@
+main {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+}
+
+form {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.results-img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border: 1px solid rgb(28, 18, 9);
+  margin: 10px;
+  overflow: hidden;
+}
